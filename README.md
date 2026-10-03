@@ -6,7 +6,7 @@ This project implements NCC using **k-core/coreness information** and the corene
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 In a complex network, some nodes are more influential than others. Traditional centrality measures such as Degree Centrality, Betweenness Centrality, Closeness Centrality, PageRank, and K-shell centrality are commonly used to identify important nodes.
 
@@ -20,7 +20,7 @@ The project follows the NCC approach discussed in the work by Bae and Kim (2014)
 
 ---
 
-## 🧠 NCC Formula
+## NCC Formula
 
 For a node `v`, the Neighborhood Coreness Centrality is calculated as:
 
@@ -43,7 +43,7 @@ The final value is rounded to four decimal places.
 
 ---
 
-## 🔍 How the Implementation Works
+## How the Implementation Works
 
 The main function is:
 
@@ -228,7 +228,7 @@ Neighborhood-Coreness-Centrality/
 
 ---
 
-## 🧮 Example
+## Example
 
 For a node `v` whose neighbours have coreness values:
 
