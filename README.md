@@ -71,7 +71,7 @@ and calculates the neighbourhood contribution using the coreness of adjacent nod
 
 ---
 
-## 📊 Networks Used
+## Networks Used
 
 ### 1. Karate Club Network
 
@@ -139,7 +139,7 @@ The implementation then ranks the nodes and extracts the top 10.
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 The project generates:
 
@@ -155,7 +155,7 @@ The original notebook output also contains bar charts showing the normalized NCC
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Python**
 - **NetworkX** – graph and network analysis
@@ -164,7 +164,7 @@ The original notebook output also contains bar charts showing the normalized NCC
 
 ---
 
-## 📦 Installation
+## Installation
 
 Install the required Python libraries:
 
@@ -180,7 +180,7 @@ If you are using Google Colab:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Step 1: Clone the repository
 
@@ -213,7 +213,7 @@ The program will calculate normalized NCC values, print node rankings, and gener
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```text
 Neighborhood-Coreness-Centrality/
@@ -244,13 +244,13 @@ NCC(v) = 3 + 3 + 3 = 9
 
 If the maximum NCC in the network is `12`, then:
 
-\[
+$$
 NCC_{norm}(v) = \frac{9}{12} = 0.75
-\]
+$$
 
 ---
 
-## 🌐 Applications
+## Applications
 
 Neighborhood Coreness Centrality can be useful for identifying structurally influential nodes in applications such as:
 
@@ -265,7 +265,7 @@ Neighborhood Coreness Centrality can be useful for identifying structurally infl
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 - Incorporates the structural position of neighbouring nodes.
 - Provides more differentiation than K-shell alone.
@@ -275,7 +275,7 @@ Neighborhood Coreness Centrality can be useful for identifying structurally infl
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - NCC depends on the k-core/coreness structure of the network.
 - The measure primarily uses the coreness of neighbouring nodes.
@@ -284,7 +284,7 @@ Neighborhood Coreness Centrality can be useful for identifying structurally infl
 
 ---
 
-## 📚 References
+## References
 
 1. J. Bae and S. Kim, **"Identifying and ranking influential spreaders in complex networks by neighborhood coreness,"** *Physica A*, vol. 395, pp. 549–559, 2014.
 2. S. Kumar and B. S. Panda, **"Identifying influential nodes in Social Networks: Neighborhood Coreness based voting approach,"** *Physica A*, vol. 553, 124215, 2020.
@@ -296,14 +296,14 @@ Neighborhood Coreness Centrality can be useful for identifying structurally infl
 
 ---
 
-## 👨‍💻 Authors
+## Authors
 
 **Dhruv Nailwal**  
 **Vanshika Goyal**
 
 ---
 
-## ⭐ Project Objective
+## Project Objective
 
 The main objective of this project is to implement and demonstrate **Neighborhood Coreness Centrality** as a network-analysis technique for identifying influential nodes, and to observe how the ranking behaves across different real-world network structures.
 
