@@ -24,9 +24,9 @@ The project follows the NCC approach discussed in the work by Bae and Kim (2014)
 
 For a node `v`, the Neighborhood Coreness Centrality is calculated as:
 
-\[
+$$
 NCC(v) = \sum_{u \in N(v)} Core(u)
-\]
+$$
 
 where:
 
@@ -35,11 +35,9 @@ where:
 
 The implementation then normalizes the NCC value:
 
-\[
-NCC_{norm}(v) =
-\frac{NCC(v)}
-{\max_{x \in V} NCC(x)}
-\]
+$$
+NCC_{norm}(v) = \frac{NCC(v)}{\max_{x \in V} NCC(x)}
+$$
 
 The final value is rounded to four decimal places.
 
@@ -298,12 +296,10 @@ Neighborhood Coreness Centrality can be useful for identifying structurally infl
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-**Dhruv Nailwal**
-
-B.Sc. (Hons.) Computer Science / Computer Science postgraduate student  
-University of Delhi
+**Dhruv Nailwal**  
+**Vanshika Goyal**
 
 ---
 
